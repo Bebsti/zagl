@@ -1,12 +1,12 @@
 {
     "name": "PdiskShortener-Bot",
-    "description": "Make short link by using PdiskShortener API key",
+    "description": "Make short link by using ZAGL API key",
     "keywords": [
         "telegram",
-        "PdiskShortener"
+        "ZAGL"
     ],
-    "website": "https://github.com/kevinnadar264/pdiskshortner/",
-    "repository": "https://github.com/kevinnadar264/pdiskshortner/",
+    "website": "https://github.com/kevinnadar264/zagl/",
+    "repository": "https://github.com/kevinnadar264/zagl/",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
@@ -21,7 +21,7 @@
             "value": ""
         },
         "API_KEY": {
-            "description": "Get API key from pdiskshortner.net/member/tools/api",
+            "description": "Get API key from za.gl/member/tools/api",
             "required": false
         }
     },
