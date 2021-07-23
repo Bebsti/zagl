@@ -19,7 +19,7 @@ bot = Client('pdiskshortner bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Pdisk link bot. Just send me link and get short link")
+        "I'm ZA.GL link bot. Just send me link and get short link")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
@@ -37,7 +37,7 @@ Here is your  [Short Link]({short_link})''', quote=True)
 
 
 async def get_shortlink(link):
-    url = 'http://pdiskshortner.net/api'
+    url = 'http://za.gl/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
