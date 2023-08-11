@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', 'deca8552d6bfa7f9e86bc34290214c116036d5de')
+API_KEY = environ.get('API_KEY', '9590cdc3308afc15a447eadf2cee3005ac067d19')
 
 bot = Client('pdiskshortner bot',
              api_id=API_ID,
@@ -37,7 +37,7 @@ Here is your  [Short Link]({short_link})''', quote=True)
 
 
 async def get_shortlink(link):
-    url = 'http://za.gl/api'
+    url = 'https://clicksfly.com/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
